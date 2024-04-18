@@ -1,0 +1,134 @@
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.container-productos {
+  border: 2px solid black;
+  border-radius: 30px;
+}
+#productos {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos {
+  display: flex;
+  margin: 50px 30px 20px 50px;
+  border: 2px solid black;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  gap: 10px;
+  padding: 20px;
+}
+.productos img {
+  width: 200px;
+  height: 200px;
+}
+.productos button {
+  background-color: #000;
+  color: #fdfdfd;
+  width: 80px;
+  height: 25px;
+}
+.titulo-carrito{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-compras {
+  min-height: 100px;
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carrito-producto {
+  padding: 15px;
+}
+.carrito-total {
+  margin: 20px;
+}
+.boton-borrar img {
+  width: 40px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.btn-1 {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-1 a {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+span {
+  position: relative;
+  z-index: 3;
+}
+.btn-1 a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  height: calc(100% - 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+.btn-1 a:hover::before {
+  transform: scaleY(0);
+}
+.btn-1 a::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+.btn-1 a:hover::after {
+  transform: scaleX(0);
+}
+.ml3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2ca9bc;
+  font-weight: 900;
+  font-size: 3.5em;
+}
+footer{
+    height: 50px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.despedida-body{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
