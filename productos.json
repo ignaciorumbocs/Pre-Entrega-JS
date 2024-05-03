@@ -1,0 +1,9 @@
+[
+    { "id": 1, "titulo": "Auriculares", "precio": 3000, "img": "img/headset-logo.png" },
+    { "id": 2, "titulo": "Teclado", "precio": 2000, "img": "img/keyboard-logo.png" },
+    { "id": 3, "titulo": "Notebook", "precio": 15000, "img": "img/laptop-logo.png" },
+    { "id": 4, "titulo": "Monitor", "precio": 5000, "img": "img/monitor-logo.png" },
+    { "id": 5, "titulo": "Mouse", "precio": 1500, "img": "img/mouse-logo.png" }
+
+    
+]
